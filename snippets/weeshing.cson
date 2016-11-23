@@ -8,6 +8,9 @@
   'Import alert':
     'prefix': 'impalert'
     'body': 'import withAlert from \'react-modules/decorators/alert\''
+  'Import message':
+    'prefix': 'impmessage'
+    'body': 'import withMessage from \'react-modules/decorators/message\''
   'Import Collection':
     'prefix': 'impc'
     'body': 'import $1 from \'modules/collections/$2\''
