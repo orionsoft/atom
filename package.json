@@ -1,7 +1,7 @@
 {
   "name": "orionsoft",
   "main": "./lib/orionsoft",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Orionsoft snippets",
   "keywords": [],
   "repository": "https://github.com/orionsoft/atom",
