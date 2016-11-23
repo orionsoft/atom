@@ -1,6 +1,6 @@
 {
   "name": "orionsoft",
-  "main": "./lib/main",
+  "main": "./lib/orionsoft",
   "version": "0.3.0",
   "description": "Orionsoft snippets",
   "keywords": [],
