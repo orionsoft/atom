@@ -1,14 +1,14 @@
 {
   "name": "orionsoft",
   "main": "./lib/orionsoft",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Orionsoft snippets",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "orionsoft:dage"
   },
-  "repository": "https://github.com/atom/orionsoft",
+  "repository": "https://github.com/orionsoft/atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
