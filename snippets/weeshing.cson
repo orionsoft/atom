@@ -1,0 +1,31 @@
+'source.js':
+  'Import link':
+    'prefix': 'implink'
+    'body': 'import Link from \'react-modules/components/Link\''
+  'Import button':
+    'prefix': 'impbutton'
+    'body': 'import Button from \'react-modules/components/Button\''
+  'Import alert':
+    'prefix': 'impalert'
+    'body': 'import withAlert from \'react-modules/decorators/alert\''
+  'Import Collection':
+    'prefix': 'impc'
+    'body': 'import $1 from \'modules/collections/$2\''
+  'Import Weeshing':
+    'prefix': 'impw'
+    'body': 'import Weeshing from \'modules/main/init\''
+  'Import Helpers':
+    'prefix': 'imphelpers'
+    'body': 'import {$1} from \'react-modules/helpers/format\''
+  'Import Helpers Old':
+    'prefix': 'imphold'
+    'body': 'import {$1} from \'modules/helpers/helpers\''
+  'Import Translate':
+    'prefix': 'imptr'
+    'body': 'import Translate from \'react-modules/i18n\''
+  'Import Translate Old':
+    'prefix': 'imptrold'
+    'body': 'import Translate from \'modules/i18n/component\''
+  'Import Breadcrumbs':
+    'prefix': 'impbreadcrumbs'
+    'body': 'import Breadcrumbs from \'modules/components/misc/breadcrumbs\''

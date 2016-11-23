@@ -2,15 +2,6 @@
   'Import styles file':
     'prefix': 'impstyles'
     'body': 'import styles from \'./styles.css\''
-  'Import link':
-    'prefix': 'implink'
-    'body': 'import Link from \'react-modules/components/Link\''
-  'Import button':
-    'prefix': 'impbutton'
-    'body': 'import Button from \'react-modules/components/Button\''
-  'Import alert':
-    'prefix': 'impalert'
-    'body': 'import withAlert from \'react-modules/decorators/alert\''
   'Import with graphql':
     'prefix': 'impgraphql'
     'body': """
@@ -53,36 +44,15 @@
   'Import Simple Schema':
     'prefix': 'impss'
     'body': 'import SimpleSchema from \'simpl-schema\''
-  'Import Collection':
-    'prefix': 'impc'
-    'body': 'import $1 from \'modules/collections/$2\''
   'Import Material Colors':
     'prefix': 'immc'
     'body': 'import * as Colors from \'material-ui/styles/colors\''
-  'Import Weeshing':
-    'prefix': 'impw'
-    'body': 'import Weeshing from \'modules/main/init\''
-  'Import Helpers':
-    'prefix': 'imphelpers'
-    'body': 'import {$1} from \'react-modules/helpers/format\''
-  'Import Helpers Old':
-    'prefix': 'imphold'
-    'body': 'import {$1} from \'modules/helpers/helpers\''
-  'Import Translate':
-    'prefix': 'imptr'
-    'body': 'import Translate from \'react-modules/i18n\''
-  'Import Translate Old':
-    'prefix': 'imptrold'
-    'body': 'import Translate from \'modules/i18n/component\''
   'Import Material Component':
     'prefix': 'imc'
     'body': 'import $1 from \'material-ui/$1\''
   'Import Flow Router':
     'prefix': 'impf'
     'body': 'import {FlowRouter} from \'meteor/kadira:flow-router\''
-  'Import Breadcrumbs':
-    'prefix': 'impbreadcrumbs'
-    'body': 'import Breadcrumbs from \'modules/components/misc/breadcrumbs\''
   'Import Underscore':
     'prefix': 'impu'
     'body': 'import _ from \'underscore\''
