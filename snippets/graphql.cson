@@ -1,0 +1,22 @@
+'.source.js':
+  'Create with graphql':
+    'prefix': 'withGraphQL'
+    'body': """
+      @withGraphQL(gql`query $1{
+        $2
+      }`)
+    """
+  'Create with mutation':
+    'prefix': 'withMutation'
+    'body': """
+      @withMutation(gql`mutation $1 {
+        $2
+      }`)
+    """
+  'Create with fragment':
+    'prefix': 'withFragment'
+    'body': """
+      @withFragment(gql`fragment $1 on $2 {
+        $3
+      }`)
+    """

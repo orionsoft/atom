@@ -1,0 +1,8 @@
+'.source.css':
+  'Create local css modules variable':
+    'prefix': 'local('
+    'body': """
+      :local(.$1) {
+        $2
+      }
+    """

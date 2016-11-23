@@ -1,0 +1,98 @@
+'.source.js':
+  'This props':
+      'prefix': 'tp'
+      'body': 'this.props.$1'
+  'Create a constructor':
+    'prefix': 'constructoreact'
+    'body': """
+      constructor (props) {
+        super(props)
+        $1
+      }
+    """
+  'Component did mount':
+    'prefix': 'componentDidMount'
+    'body': """
+      componentDidMount () {
+        $1
+      }
+    """
+  'Component will mount':
+    'prefix': 'componentWillMount'
+    'body': """
+      componentWillMount () {
+        $1
+      }
+    """
+  'Component will recieve props':
+    'prefix': 'componentWillReceiveProps'
+    'body': """
+      componentWillReceiveProps (nextProps) {
+        $1
+      }
+    """
+  'Should Component update':
+    'prefix': 'shouldComponentUpdate'
+    'body': """
+      shouldComponentUpdate (nextProps, nextState) {
+        $1
+      }
+    """
+  'Component will update':
+    'prefix': 'componentDidUpdate'
+    'body': """
+      componentDidUpdate (prevProps, prevState) {
+        $1
+      }
+    """
+  'Component will unmount':
+    'prefix': 'componentWillUnmount'
+    'body': """
+      componentWillUnmount () {
+        $1
+      }
+    """
+  'Create props':
+    'prefix': 'propTypes'
+    'body': """
+      static propTypes = {
+        $1
+      }
+    """
+  'Create default props':
+    'prefix': 'defaultProps'
+    'body': """
+      static defaultProps = {
+        $1
+      }
+    """
+  'Create context types':
+    'prefix': 'contextTypes'
+    'body': """
+      static contextTypes = {
+        $1
+      }
+    """
+  'React Prop Types':
+    'prefix': 'rpt'
+    'body': 'React.PropTypes.$1'
+  'Create a react component':
+    'prefix': 'rc'
+    'body': """
+      import React from 'react'
+
+      export default class ${1:Component} extends React.Component {
+
+        static propTypes = {
+
+        }
+
+        render () {
+          return (
+            $2
+          )
+        }
+
+      }
+
+    """

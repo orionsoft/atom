@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Dage orionsoft",
+        "command": "orionsoft:dage"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "orionsoft",
+          "submenu": [
+            {
+              "label": "Dage",
+              "command": "orionsoft:dage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

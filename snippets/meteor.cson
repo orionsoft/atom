@@ -1,0 +1,19 @@
+'.source.js':
+  'Create with data':
+      'prefix': 'withData'
+      'body': """
+        @withData(({$1}) => {
+          const handler = Weeshing.subscribe('$2')
+          const isLoading = !handler.ready()
+          return {isLoading}
+        })
+      """
+  'Create a container':
+    'prefix': 'createCon'
+    'body': """
+      export default createContainer(({$1}) => {
+        const handler = Weeshing.subscribe('')
+        const isLoading = !handler.ready()
+        return {isLoading}
+      }, ${2:Component})
+    """
