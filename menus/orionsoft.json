@@ -5,6 +5,31 @@
         "label": "Dage orionsoft",
         "command": "orionsoft:dage"
       }
+    ],
+    ".tree-view.full-menu .header.list-item": [
+      {
+        "label": "Orionsoft",
+        "submenu": [
+          {
+            "label": "Create a new React Component",
+            "command": "orionsoft:create-react-component"
+          },
+          {
+            "label": "Create a new Route Group",
+            "command": "orionsoft:create-react-router-group"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Create a Apollo Resolver",
+            "command": "orionsoft:create-apollo-resolver"
+          }
+        ]
+      },
+      {
+        "type": "separator"
+      }
     ]
   },
   "menu": [
@@ -12,7 +37,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "orionsoft",
+          "label": "Orionsoft",
           "submenu": [
             {
               "label": "Dage",
