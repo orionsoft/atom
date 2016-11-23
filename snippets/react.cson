@@ -66,6 +66,9 @@
         $1
       }
     """
+  'Add onTouchTap prop':
+    'prefix': 'onTouchTap'
+    'body': 'onTouchTap={$1}'
   'Create context types':
     'prefix': 'contextTypes'
     'body': """

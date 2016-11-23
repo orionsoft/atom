@@ -1,4 +1,4 @@
-'source.js':
+'.source.js':
   'Import link':
     'prefix': 'implink'
     'body': 'import Link from \'react-modules/components/Link\''

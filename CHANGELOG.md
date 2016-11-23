@@ -1,3 +1,7 @@
+## 0.3.0 - More snippets
+
+- More snippets
+
 ## 0.2.0 - Creators
 
 - Create Apollo resolver

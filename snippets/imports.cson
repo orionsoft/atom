@@ -1,4 +1,10 @@
 '.source.js':
+  'Import':
+    'prefix': 'im'
+    'body': 'import \'./$1\''
+  'Import from':
+    'prefix': 'imf'
+    'body': 'import $2 from \'./$1\''
   'Import styles file':
     'prefix': 'impstyles'
     'body': 'import styles from \'./styles.css\''
@@ -29,12 +35,6 @@
   'Import autobind':
     'prefix': 'impautobind'
     'body': 'import autobind from \'autobind-decorator\''
-  'Import':
-    'prefix': 'im'
-    'body': 'import \'./$1\''
-  'Import from':
-    'prefix': 'imf'
-    'body': 'import $2 from \'./$1\''
   'Import create container':
     'prefix': 'impcon'
     'body': 'import {createContainer} from \'meteor/react-meteor-data\''
@@ -59,12 +59,6 @@
   'Import React':
     'prefix': 'impr'
     'body': 'import React from \'react\''
-  'Import React Form':
-    'prefix': 'imps'
-    'body': 'import {Form, Field} from \'simple-react-form\''
-  'Import Material Form Component':
-    'prefix': 'imsc'
-    'body': 'import $1 from \'simple-react-form-material-ui/lib/$2\''
   'Import Meteor':
     'prefix': 'impme'
     'body': 'import {Meteor} from \'meteor/meteor\''

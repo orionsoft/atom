@@ -1,0 +1,19 @@
+'.source.js':
+  'Create a simple react form':
+    'prefix': 'form'
+    'body': """
+      <Form state={this.state} onChange={changes => this.setState(changes)}>
+        $1
+      </Form>
+    """
+  'Create a simple react form field':
+    'prefix': 'field'
+    'body': """
+      <Field fieldName='$1' label='$2' type={$3} />
+    """
+  'Import Simple React Form':
+    'prefix': 'impsimplereactform'
+    'body': 'import {Form, Field} from \'simple-react-form\''
+  'Import Simple React Form Material Component':
+    'prefix': 'impfield'
+    'body': 'import $1 from \'simple-react-form-material-ui/lib/$2\''

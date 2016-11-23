@@ -11,6 +11,9 @@
         </div>
       </div>
     """
+  'Create a br':
+    'prefix': 'br'
+    'body': '<br />'
   'Create a div':
     'prefix': 'div'
     'body': """

@@ -20,3 +20,15 @@
         $3
       }`)
     """
+  'Mutation function':
+    'prefix': 'mutation'
+    'body': """
+      @autobind
+      async $1 () {
+        try {
+          await this.props.$2({})
+        } catch (error) {
+          console.log('Error:', error)
+        }
+      }
+    """
