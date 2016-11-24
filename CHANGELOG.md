@@ -1,3 +1,7 @@
+## 0.4.0 - More snippets
+
+- Search Translate
+
 ## 0.3.0 - More snippets
 
 - More snippets
