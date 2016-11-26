@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "atom-space-pen-views": "^2.1.1",
+    "codemirror-graphql": "^0.5.8",
     "event-kit": "^1.0.0",
     "fs-plus": "^2.3.0",
     "fs-readfile-promise": "^3.0.0",
+    "graphql": "^0.8.2",
     "loophole": "^1.1.0",
     "minimatch": "~0.3.0",
     "pathwatcher": "^6.2",

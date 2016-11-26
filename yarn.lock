@@ -181,6 +181,10 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
+codemirror-graphql@^0.5.8:
+  version "0.5.8"
+  resolved "https://registry.npmjs.org/codemirror-graphql/-/codemirror-graphql-0.5.8.tgz#b57a56841b32fb571919f116ba6ee0c7fb97a581"
+
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -556,6 +560,12 @@ graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
+graphql@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.npmjs.org/graphql/-/graphql-0.8.2.tgz#eb1bb524b38104bbf2c9157f9abc67db2feba7d2"
+  dependencies:
+    iterall "1.0.2"
+
 grim@^1.0.0, grim@^1.2.1:
   version "1.5.0"
   resolved "https://registry.npmjs.org/grim/-/grim-1.5.0.tgz#b32b08ef567cf1852f81759ed9c68b0d71396a32"
@@ -674,6 +684,10 @@ is-resolvable@^1.0.0:
 isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
+
+iterall@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/iterall/-/iterall-1.0.2.tgz#41a2e96ce9eda5e61c767ee5dc312373bb046e91"
 
 jquery@2.1.4:
   version "2.1.4"
