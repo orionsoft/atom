@@ -15,7 +15,6 @@
     "fs-readfile-promise": "^3.0.0",
     "graphql": "^0.8.2",
     "loophole": "^1.1.0",
-    "text": "requirejs/text",
     "underscore": "^1.8.3"
   },
   "providedServices": {
