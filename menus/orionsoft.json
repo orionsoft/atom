@@ -24,6 +24,13 @@
           {
             "label": "Create a Apollo Resolver",
             "command": "orionsoft:create-apollo-resolver"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Create a Translation Group",
+            "command": "orionsoft:create-translation-group"
           }
         ]
       },
