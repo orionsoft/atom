@@ -1,5 +1,5 @@
 path = require 'path'
-fs = require 'fs-plus'
+fs = require 'fs'
 Dialog = require './dialog'
 {repoForPath} = require './helpers'
 
