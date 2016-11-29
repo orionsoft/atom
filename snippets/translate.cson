@@ -1,0 +1,4 @@
+'.source.js':
+  'Load translate Component':
+    'prefix': 'Translate'
+    'body': '<Translate tr=\'$1\' />'
