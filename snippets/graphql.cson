@@ -14,11 +14,11 @@
       }`)
     """
   'Create with fragment':
-    'prefix': 'withFragment'
+    'prefix': 'fragment'
     'body': """
-      @withFragment(gql`fragment $1 on $2 {
+      static fragment = gql`fragment $1 on $2 {
         $3
-      }`)
+      }`
     """
   'Mutation function':
     'prefix': 'mutation'

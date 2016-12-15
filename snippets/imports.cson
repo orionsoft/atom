@@ -23,7 +23,6 @@
   'Import with fragment':
     'prefix': 'impfragment'
     'body': """
-      import withFragment from 'react-apollo-decorators/lib/withFragment'
       import gql from 'graphql-tag'
     """
   'Import with data':
@@ -42,8 +41,8 @@
     'prefix': 'impro'
     'body': 'import {Roles} from \'meteor/nicolaslopezj:roles\''
   'Import Simple Schema':
-    'prefix': 'impss'
-    'body': 'import SimpleSchema from \'simpl-schema\''
+    'prefix': 'impsschema'
+    'body': 'import {SimpleSchema} from \'meteor/aldeed:simple-schema\''
   'Import Material Colors':
     'prefix': 'immc'
     'body': 'import * as Colors from \'material-ui/styles/colors\''
@@ -55,7 +54,10 @@
     'body': 'import {FlowRouter} from \'meteor/kadira:flow-router\''
   'Import Underscore':
     'prefix': 'impu'
-    'body': 'import _ from \'underscore\''
+    'body': 'import _ from \'underscore\' // should change to lodash'
+  'Import Lodash':
+    'prefix': 'implodash'
+    'body': 'import $1 from \'lodash/$1\''
   'Import React':
     'prefix': 'impr'
     'body': 'import React from \'react\''
