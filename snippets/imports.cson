@@ -43,6 +43,9 @@
   'Import Simple Schema':
     'prefix': 'impsschema'
     'body': 'import {SimpleSchema} from \'meteor/aldeed:simple-schema\''
+  'Import New Simple Schema':
+    'prefix': 'impnewsimpleschema'
+    'body': 'import SimpleSchema from \'simpl-schema\''
   'Import Material Colors':
     'prefix': 'immc'
     'body': 'import * as Colors from \'material-ui/styles/colors\''
@@ -61,6 +64,9 @@
   'Import React':
     'prefix': 'impr'
     'body': 'import React from \'react\''
+  'Import React Native':
+    'prefix': 'imprn'
+    'body': 'import {$1} from \'react-native\''
   'Import Meteor':
     'prefix': 'impme'
     'body': 'import {Meteor} from \'meteor/meteor\''
