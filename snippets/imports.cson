@@ -8,6 +8,9 @@
   'Import styles file':
     'prefix': 'impstyles'
     'body': 'import styles from \'./styles.css\''
+  'Import orionsoft':
+    'prefix': 'imporionsoft'
+    'body': 'import $2 from \'orionsoft-parts/lib/$1\''
   'Import with graphql':
     'prefix': 'impgraphql'
     'body': """
