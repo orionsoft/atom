@@ -10,6 +10,14 @@
       }
 
     """
+  'Export default':
+    'prefix': 'expdefault'
+    'body': """
+      export default {
+        $1
+      }
+
+    """
   'Export const function':
     'prefix': 'expconst'
     'body': """
