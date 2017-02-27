@@ -79,3 +79,6 @@
   'Import Numeral':
     'prefix': 'impn'
     'body': 'import numeral from \'numeral\''
+  'Import React Icons':
+    'prefix': 'impicon'
+    'body': 'import $1Icon from \'react-icons/lib/md/$2\''
