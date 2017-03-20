@@ -26,6 +26,14 @@
             "command": "orionsoft:create-apollo-resolver"
           },
           {
+            "label": "Create a Apollo Resolver Function",
+            "command": "orionsoft:create-apollo-resolver-function"
+          },
+          {
+            "label": "Create a Apollo Schema",
+            "command": "orionsoft:create-apollo-schema"
+          },
+          {
             "type": "separator"
           },
           {
