@@ -25,10 +25,13 @@
     'body': """
       @autobind
       async $1 () {
+        this.setState({loading: true})
         try {
           await this.props.$2({})
         } catch (error) {
           console.log('Error:', error)
+          this.props.showMessage(error.message)
         }
+        this.setState({loading: false})
       }
     """

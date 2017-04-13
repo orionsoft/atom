@@ -1,0 +1,7 @@
+'.source.js':
+  'Import button':
+    'prefix': 'impbutton'
+    'body': 'import Button from \'orionsoft-parts/lib/components/Button\''
+  'Import with message':
+    'prefix': 'impmessage'
+    'body': 'import withMessage from \'orionsoft-parts/lib/decorators/withMessage\''

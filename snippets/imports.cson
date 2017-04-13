@@ -4,13 +4,16 @@
     'body': 'import \'./$1\''
   'Import from':
     'prefix': 'imf'
-    'body': 'import $2 from \'./$1\''
+    'body': 'import  from \'./$1\'$2'
+  'Import link':
+    'prefix': 'implink'
+    'body': 'import {Link} from \'react-router\''
   'Import styles file':
     'prefix': 'impstyles'
     'body': 'import styles from \'./styles.css\''
   'Import orionsoft':
     'prefix': 'imporionsoft'
-    'body': 'import $2 from \'orionsoft-parts/lib/$1\''
+    'body': 'import  from \'orionsoft-parts/lib/$1\'$2'
   'Import with graphql':
     'prefix': 'impgraphql'
     'body': """
