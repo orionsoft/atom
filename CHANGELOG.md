@@ -1,3 +1,7 @@
+## 0.10.0 - Auto imports
+
+- Autobind auto import
+
 ## 0.4.0 - More snippets
 
 - Search Translate
