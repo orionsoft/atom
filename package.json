@@ -2,7 +2,7 @@
   "name": "orionsoft",
   "main": "./lib/orionsoft",
   "version": "0.10.0",
-  "description": "Orionsoft snippets",
+  "description": "Orionsoft internal package",
   "keywords": [],
   "repository": "https://github.com/orionsoft/atom",
   "license": "MIT",
