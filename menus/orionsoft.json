@@ -37,6 +37,13 @@
             "type": "separator"
           },
           {
+            "label": "Create a Meteor Collection",
+            "command": "orionsoft:create-meteor-collection"
+          },
+          {
+            "type": "separator"
+          },
+          {
             "label": "Create a Translation Group",
             "command": "orionsoft:create-translation-group"
           }
