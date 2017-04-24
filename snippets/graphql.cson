@@ -23,14 +23,15 @@
   'Mutation function':
     'prefix': 'mutation'
     'body': """
-      @autobind
+      @a
       async $1 () {
         this.setState({loading: true})
         try {
           await this.props.$2({})
+          this.props.showMessage('Success')
         } catch (error) {
           console.log('Error:', error)
-          this.props.showMessage(error.message)
+          this.props.showMessage(error.message, {level: 'error'})
         }
         this.setState({loading: false})
       }
