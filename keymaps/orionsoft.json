@@ -1,6 +1,7 @@
 {
   "atom-workspace": {
     "ctrl-alt-d": "orionsoft:dage",
-    "cmd-shift-e": "orionsoft:save-task"
+    "cmd-shift-e": "orionsoft:save-task",
+    "alt-t": "orionsoft:save-traduction"
   }
 }

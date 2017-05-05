@@ -5,9 +5,6 @@
   'Import Weeshing':
     'prefix': 'impw'
     'body': 'import Weeshing from \'modules/main/init\''
-  'Import Translate':
-    'prefix': 'imptr'
-    'body': 'import Translate from \'react-modules/i18n\''
   'Import Translate Old':
     'prefix': 'imptrold'
     'body': 'import Translate from \'modules/i18n/component\''

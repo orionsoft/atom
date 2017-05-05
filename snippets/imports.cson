@@ -85,3 +85,6 @@
   'Import React Icons':
     'prefix': 'impicon'
     'body': 'import $1Icon from \'react-icons/lib/md/$2\''
+  'Import Translate':
+    'prefix': 'imptr'
+    'body': 'import Translate from \'App/i18n\''

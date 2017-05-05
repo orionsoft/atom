@@ -5,3 +5,6 @@
   'Import with message':
     'prefix': 'impmessage'
     'body': 'import withMessage from \'orionsoft-parts/lib/decorators/withMessage\''
+  'Import container':
+    'prefix': 'impcontainer'
+    'body': 'import Container from \'orionsoft-parts/lib/components/Container\''
