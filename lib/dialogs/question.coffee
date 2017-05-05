@@ -5,9 +5,10 @@ Dialog = require './dialog'
 
 module.exports =
 class QuestionDialog extends Dialog
-  constructor: (initialPath, question) ->
+  constructor: (initialPath, question, placeholder) ->
     super
       prompt: question
+      placeholder: placeholder
       initialPath: ''
       select: false
       iconClass: 'icon-file-add'
