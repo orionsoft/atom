@@ -4,7 +4,6 @@ path = require 'path'
 module.exports =
 class Dialog extends View
   @content: ({prompt, placeholder} = {}) ->
-    console.log placeholder
     @div class: 'tree-view-dialog', =>
       @label prompt, class: 'icon', outlet: 'promptText'
       @subview 'miniEditor', new TextEditorView(mini: true, placeholderText: placeholder)
