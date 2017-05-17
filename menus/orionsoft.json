@@ -6,7 +6,7 @@
         "command": "orionsoft:dage"
       }
     ],
-    ".tree-view.full-menu .header.list-item": [
+    ".tree-view .header.list-item": [
       {
         "label": "Orionsoft",
         "submenu": [
