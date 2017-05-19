@@ -27,7 +27,7 @@
 
     """
   'Create try catch':
-    'prefix': 'try'
+    'prefix': 'trycatch'
     'body': """
       try {
         $1
@@ -36,5 +36,5 @@
       }
     """
   'Console log':
-      'prefix': 'log'
-      'body': 'console.log($1)'
+    'prefix': 'logconsole'
+    'body': 'console.log($1)'
