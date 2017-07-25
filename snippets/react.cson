@@ -76,9 +76,6 @@
         $1
       }
     """
-  'React Prop Types':
-    'prefix': 'rpt'
-    'body': 'React.PropTypes.$1'
   'Create a react component':
     'prefix': 'rc'
     'body': """
