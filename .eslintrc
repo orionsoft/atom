@@ -1,5 +1,3 @@
 {
-  "parser": "babel-eslint",
-  "extends": ["standard"],
-  "global": ["atom"]
+  "extends": "orionsoft"
 }
