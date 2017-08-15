@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "atom-space-pen-views": "^2.1.1",
-    "fs-plus": "^2.9.3",
+    "fs-plus": "^3.0.1",
     "fs-readfile-promise": "^3.0.0",
-    "graphql": "^0.8.2",
+    "graphql": "^0.10.5",
     "loophole": "^1.1.0",
     "speakeasy": "^2.0.0",
     "underscore": "^1.8.3"
@@ -26,8 +26,6 @@
     }
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.0",
-    "eslint": "^3.9.1",
-    "standard": "*"
+    "eslint-config-orionsoft": "^1.2.1"
   }
 }
