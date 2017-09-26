@@ -9,7 +9,7 @@
   'Create a simple react form field':
     'prefix': 'field'
     'body': """
-      <Field fieldName='$1' label='$2' type={$3} />
+      <Field fieldName='$1' type={$2} />
     """
   'Import Simple React Form':
     'prefix': 'impsimplereactform'
