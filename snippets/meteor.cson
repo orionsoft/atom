@@ -17,3 +17,6 @@
         return {isLoading}
       }, ${2:Component})
     """
+  'Import apollo helpers':
+    'prefix': 'impapollohelpers'
+    'body': """import {createModifier, validate, FieldError} from 'meteor/orionsoft:apollo-helpers'"""

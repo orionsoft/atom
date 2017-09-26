@@ -25,13 +25,13 @@
     'body': """
       @a
       async $1 () {
-        this.setState({loading: true})
+        this.setState({loading: true, errorMessages: null})
         try {
           await this.props.$2({})
           this.props.showMessage('Success')
         } catch (error) {
           console.log('Error:', error)
-          this.props.showMessage(error.message, {level: 'error'})
+          setGraphQLErrors(this, error)
         }
         this.setState({loading: false})
       }
