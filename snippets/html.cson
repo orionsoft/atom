@@ -11,6 +11,9 @@
         </div>
       </div>
     """
+  'Add className':
+    'prefix': 'className'
+    'body': 'className={styles.$1}'
   'Create a br':
     'prefix': 'br'
     'body': '<br />'
