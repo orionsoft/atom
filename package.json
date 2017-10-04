@@ -1,7 +1,7 @@
 {
   "name": "orionsoft",
   "main": "./lib/orionsoft",
-  "version": "1.13.2",
+  "version": "1.13.3",
   "description": "Orionsoft internal package",
   "keywords": [],
   "repository": "https://github.com/orionsoft/atom",
