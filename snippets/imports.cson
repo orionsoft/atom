@@ -11,9 +11,12 @@
   'Import styles file':
     'prefix': 'impstyles'
     'body': 'import styles from \'./styles.css\''
-  'Import orionsoft':
+  'Import Orionsoft':
     'prefix': 'imporionsoft'
     'body': 'import  from \'orionsoft-parts/lib/$1\'$2'
+  'Import React Native Orionsoft':
+    'prefix': 'imprnorionsoft'
+    'body': 'import  from \'react-native-orionsoft-parts/$1\'$2'
   'Import with graphql':
     'prefix': 'impgraphql'
     'body': """
