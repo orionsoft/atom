@@ -28,7 +28,7 @@
         this.setState({loading: true, errorMessages: null})
         try {
           await this.props.$2({})
-          this.props.showMessage('Success')
+          this.props.showMessage('Success [cambiar este texto]')
         } catch (error) {
           console.log('Error:', error)
           setGraphQLErrors(this, error)
