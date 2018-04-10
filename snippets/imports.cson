@@ -7,7 +7,7 @@
     'body': 'import  from \'./$1\'$2'
   'Import link':
     'prefix': 'implink'
-    'body': 'import {Link} from \'react-router\''
+    'body': 'import {Link} from \'react-router-dom\''
   'Import styles file':
     'prefix': 'impstyles'
     'body': 'import styles from \'./styles.css\''

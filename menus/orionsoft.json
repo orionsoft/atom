@@ -15,6 +15,10 @@
             "command": "orionsoft:create-react-component"
           },
           {
+            "label": "Create a new Route Group V4",
+            "command": "orionsoft:create-route-group-v4"
+          },
+          {
             "label": "Create a new Route Group",
             "command": "orionsoft:create-react-router-group"
           },
