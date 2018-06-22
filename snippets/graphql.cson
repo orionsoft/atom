@@ -25,14 +25,11 @@
     'body': """
       @a
       async $1 () {
-        this.setState({loading: true, errorMessages: null})
         try {
           await this.props.$2({})
           this.props.showMessage('Success [cambiar este texto]')
         } catch (error) {
-          console.log('Error:', error)
-          setGraphQLErrors(this, error)
+          this.props.showMessage(error)
         }
-        this.setState({loading: false})
       }
     """

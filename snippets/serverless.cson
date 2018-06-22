@@ -1,7 +1,0 @@
-'.source.js':
-  'Get collection':
-    'prefix': 'getCollection'
-    'body': """const $1 = await getCollection('$1')"""
-  'Import get collection':
-    'prefix': 'impgetCollection'
-    'body': """import getCollection from 'api/helpers/getCollection'"""

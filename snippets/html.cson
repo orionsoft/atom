@@ -11,9 +11,12 @@
         </div>
       </div>
     """
-  'Add className':
+  'Add a local className':
     'prefix': 'className'
     'body': 'className={styles.$1}'
+  'Add a global className':
+    'prefix': 'gclassName'
+    'body': 'className=""'
   'Create a br':
     'prefix': 'br'
     'body': '<br />'
@@ -32,3 +35,12 @@
     'body': """
       <p>$1</p>
     """
+  'Create a divider':
+    'prefix': 'divider'
+    'body': '<div className="divider"/>'
+  'Create a label':
+    'prefix': 'label'
+    'body': '<div className="label">$1</div>'
+  'Create a description div':
+    'prefix': 'description'
+    'body': '<div className="description">$1</div>'

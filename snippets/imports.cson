@@ -14,6 +14,9 @@
   'Import Orionsoft':
     'prefix': 'imporionsoft'
     'body': 'import  from \'orionsoft-parts/lib/$1\'$2'
+  'Import Orionsoft Components':
+    'prefix': 'imporionsoftcomponents'
+    'body': 'import  from \'orionsoft-parts/lib/components/$1\'$2'
   'Import React Native Orionsoft':
     'prefix': 'imprnorionsoft'
     'body': 'import  from \'react-native-orionsoft-parts/$1\'$2'
