@@ -11,6 +11,10 @@
         "label": "Orionsoft",
         "submenu": [
           {
+            "label": "Create a new React Function Component",
+            "command": "orionsoft:create-react-function-component"
+          },
+          {
             "label": "Create a new React Component",
             "command": "orionsoft:create-react-component"
           },
