@@ -1,7 +1,0 @@
-'.source.js':
-  'Roles.checkPermission':
-    'prefix': 'checkPermission'
-    'body': """Roles.checkPermission(userId, '$1')"""
-  'Roles.userHasPermission':
-    'prefix': 'userHasPermission'
-    'body': """Roles.userHasPermission(userId, '$1')"""

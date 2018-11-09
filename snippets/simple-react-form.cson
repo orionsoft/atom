@@ -2,7 +2,7 @@
   'Create a simple react form':
     'prefix': 'form'
     'body': """
-      <Form state={this.state} onChange={changes => this.setState(changes)}>
+      <Form state={value} onChange={setValue}>
         $1
       </Form>
     """
@@ -14,6 +14,3 @@
   'Import Simple React Form':
     'prefix': 'impsimplereactform'
     'body': 'import {Form, Field} from \'simple-react-form\''
-  'Import Simple React Form Material Component':
-    'prefix': 'impfield'
-    'body': 'import $1 from \'simple-react-form-material-ui/lib/$2\''

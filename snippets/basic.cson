@@ -27,7 +27,7 @@
 
     """
   'Create try catch':
-    'prefix': 'trycatch'
+    'prefix': 'try'
     'body': """
       try {
         $1

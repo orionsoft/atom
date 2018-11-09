@@ -23,13 +23,12 @@
   'Mutation function':
     'prefix': 'mutation'
     'body': """
-      @a
-      async $1 () {
+      const $1 = async () => {
         try {
-          await this.props.$2({})
-          this.props.showMessage('Success [cambiar este texto]')
+          await this.props.$2({$3})
+          showMessage('Success [cambiar este texto]')
         } catch (error) {
-          this.props.showMessage(error)
+          showMessage(error)
         }
       }
     """

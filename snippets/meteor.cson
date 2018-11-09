@@ -1,7 +1,0 @@
-'.source.js':
-  'Import apollo helpers':
-    'prefix': 'impapollohelpers'
-    'body': """import {createModifier, validate, FieldError} from 'meteor/orionsoft:apollo-helpers'"""
-  'Import meteor http':
-    'prefix': 'imphttp'
-    'body': """import {HTTP} from 'meteor/http'"""

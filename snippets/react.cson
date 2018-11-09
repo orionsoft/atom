@@ -17,13 +17,6 @@
         $1
       }
     """
-  'Component will mount':
-    'prefix': 'componentWillMount'
-    'body': """
-      componentWillMount () {
-        $1
-      }
-    """
   'Component will recieve props':
     'prefix': 'componentWillReceiveProps'
     'body': """
@@ -63,16 +56,6 @@
     'prefix': 'defaultProps'
     'body': """
       static defaultProps = {
-        $1
-      }
-    """
-  'Add onTouchTap prop':
-    'prefix': 'onTouchTap'
-    'body': 'onTouchTap={$1}'
-  'Create context types':
-    'prefix': 'contextTypes'
-    'body': """
-      static contextTypes = {
         $1
       }
     """
