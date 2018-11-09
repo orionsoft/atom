@@ -25,7 +25,7 @@
     'body': """
       const $1 = async () => {
         try {
-          await this.props.$2({$3})
+          await mutate({})
           showMessage('Success [cambiar este texto]')
         } catch (error) {
           showMessage(error)
