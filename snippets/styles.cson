@@ -6,6 +6,3 @@
         $2
       }
     """
-  'Font weight bold':
-    'prefix': 'bold'
-    'body': 'font-weight: bold;'
