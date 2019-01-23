@@ -10,6 +10,14 @@
       }
 
     """
+  'Export async default function':
+    'prefix': 'afunc'
+    'body': """
+      export default async function ($1) {
+        $2
+      }
+
+    """
   'Export default':
     'prefix': 'expdefault'
     'body': """
