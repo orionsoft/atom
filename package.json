@@ -17,7 +17,7 @@
     "lodash": "^4.17.11",
     "loophole": "^1.1.0",
     "speakeasy": "^2.0.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   },
   "providedServices": {
     "autocomplete.provider": {
